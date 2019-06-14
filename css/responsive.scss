@@ -3,156 +3,13 @@ $color-default: #65509e;
 
 // Responsive
 @media (max-width: 1024px) {
-    .row{
-        margin-right: 0px;
-        margin-left: 0px;
+    .chart-item{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
-    header{
-        position: fixed;
-        width: 100%;
-        top: 0;
-        background: #fff;
-        flex-direction: row;
-        padding-left: 10px;
-        padding-right: 10px;
-        z-index: 1000;
-        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
-        .header-content{
-            flex: 1;
-            .container{
-                height: 50px;
-                padding: 0;
-            }
-            .logo{
-                display: none;
-            }
-            .input-search{
-                order: 2;
-                flex: 1;
-                margin-right: 10px;
-                .icon-search>span{
-                    padding: .375rem;
-                }
-                input{
-                    padding: .375rem;
-                }
-            }
-            .login{
-                width: auto;
-                padding-right: 10px;
-                padding-left: 10px;
-                order: 1;
-                .avatar-user{
-                    i{
-                        padding-right: 0 !important;
-                        font-size: 30px;
-                    }
-                    span{
-                        display: none;
-                    }
-                }
-                .dropdown{
-                    display: none;
-                }
-            }
-        }
-        .header-navbar{
-            background: #fff;
-            height: 50px;
-            max-height: 50px !important;
-            .container{
-                padding: 0;
-                overflow: hidden;
-                nav{
-                    padding: 0;
-                    height: 100%;
-                    button{
-                        outline: none;
-                    }
-                    .nav-custom{
-                        background: #fff;
-                        border-top: 5px solid $color-default;
-                        width: 100%;
-                        position: fixed;
-                        top: 50px;
-                        left: 0;
-                        z-index: 999;
-                        ul>li{
-                            a{
-                                padding: 10px !important;
-                                border-bottom: 1px solid #f2f2f2;
-                            }
-                        }
-                        ul>li.active{
-                            a{
-                                border-bottom: 1px solid $color-default;
-                                background: $color-default !important;
-                                color: #fff !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }// ---End Header
-    main{
-        margin-top: 50px;
-        padding-top: 0 !important;
-        .container{
-            padding: 0;
-            width: 100%;
-            max-width: 100%;
-            // .slick-arrow{
-            //     display: none !important;
-            // }
-            .elem-row-bolero>div>div{
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-            }
-            .elements-section{
-                >section:first-child{
-                    padding-top: 0 !important;
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                    .box-chart{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                    }
-                    .chart-item{
-                        padding: 5px 2px;
-                    }
-                    .prefix>p{
-                        font-size: 14px;
-                    }
-                    .prefix-percent{
-                        display: none;
-                    }
-                }
-                .chart-week>div>div,
-                .top100>div>div,
-                .new-song>div>div{
-                    padding-left: 1rem !important;
-                    padding-right: 1rem !important;
-                }
-                .new-song .icon-new-song{
-                    display: flex !important;
-                }
-                .banner-zing{
-                    padding: 15px;
-                }
-                
-            }
-        }
-    }// -----End Main
-    footer{
-        .container{
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-            max-width: 100%;
-            width: 100%;
-        }
-    }// ------End Footer    
+    .prefix-percent{
+        display: none !important;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -274,9 +131,9 @@ $color-default: #65509e;
             padding: 0;
             width: 100%;
             max-width: 100%;
-            // .slick-arrow{
-            //     display: none !important;
-            // }
+            .slick-arrow{
+                display: none !important;
+            }
             .elem-row-bolero>div>div{
                 padding-left: 0 !important;
                 padding-right: 0 !important;
@@ -592,11 +449,11 @@ $color-default: #65509e;
                         }
                         span.banner-content{
                             order: 2;
-                            width: calc(100% - 50px)
+                            width: calc(100% - 50px);
                         }
                         a{
                             order: 3;
-                            margin-top: 10px;
+                            margin: 10px auto;
                         }
                     }
                 }
@@ -617,6 +474,7 @@ $color-default: #65509e;
                     padding: 0 3px !important;
                     font-size: 11px !important;
                     border-right: 1px solid #ccc;
+                    text-align: center;
                     a{
                         color: $color-default !important;
                     }
