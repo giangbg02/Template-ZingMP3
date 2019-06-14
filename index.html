@@ -1,0 +1,1249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Zing Mp3</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/switch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body style="background: #f8c126">
+    <header>
+        <div class="header-content">
+            <div class="container">
+                <div class="logo ml-3">
+                    <img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg" alt="">
+                </div>
+                <div class="input-search">
+                    <div class="input-group">
+                        <div class="input-group-prepend icon-search">
+                            <span class="input-group-text color-bg-search" id="basic-addon1">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nhập tên bài hát, ca sĩ, video...">
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="avatar-user">
+                        <i class="fa fa-user-circle pr-2"></i>
+                        <span>Đăng nhập</span>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-user mt-2 shadow"
+                            aria-labelledby="dropdownMenuButton">
+                            <div class="d-flex justify-content-between align-items-center py-2 px-3">
+                                <p class="m-0">
+                                    <i class="fa fa-adjust text-secondary"></i>
+                                    <span class="pl-3">Nền tối</span>
+                                </p>
+                                <label class="d-flex align-items-center m-0 switch switch-user">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="d-flex justify-content-center p-2">
+                                <a href="#" class="btn btn-warning">Mua VIP ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-navbar">
+            <div class="container h-100">
+                <nav class="navbar navbar-expand-lg navbar-light py-0 h-100">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse h-100 nav-custom" id="navbarNavDropdown">
+                        <ul class="navbar-nav h-100">
+                            <li class="nav-item  active">
+                                <a class="nav-link" href="#">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">#Zingchart</a>
+                                <div class="sub-menu">
+                                    <ul class="col-md-3 p-0">
+                                        <li class="sub-title">#Zingchart</li>
+                                        <li><a href="#">Bài hát</a></li>
+                                        <li><a href="#">MV</a></li>
+                                    </ul>
+                                    <ul class="col-md-3 p-0">
+                                        <li class="sub-title">Tuần</li>
+                                        <li><a href="#">Bài hát</a></li>
+                                        <li><a href="#">MV</a></li>
+                                    </ul>
+                                    <ul class="col-md-3 p-0">
+                                        <li class="sub-title">US-UK Chart</li>
+                                        <li><a href="#">Bài hát</a></li>
+                                        <li><a href="#">MV</a></li>
+                                    </ul>
+                                    <ul class="col-md-3 p-0">
+                                        <li class="sub-title">KPOP Chart</li>
+                                        <li><a href="#">Bài hát</a></li>
+                                        <li><a href="#">MV</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Top 100</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Chủ đề</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Album</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nghệ sĩ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nhạc cá nhân</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VIP</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide slider-home" data-ride="carousel">
+                <ol class="carousel-indicators box-carousel-indicators">
+                    <li class="elem-slider-img" data-target="#carouselExampleCaptions" data-slide-to="0" class="active">
+                        <img class="d-block w-100" src="./images/thurmnail/mllcn.jpg">
+                    </li>
+                    <li class="elem-slider-img" data-target="#carouselExampleCaptions" data-slide-to="1" class="">
+                        <img class="d-block w-100" src="./images/thurmnail/tcnyt.jpg">
+                    </li>
+                    <li class="elem-slider-img" data-target="#carouselExampleCaptions" data-slide-to="2" class="">
+                        <img class="d-block w-100" src="./images/thurmnail/thanhxuan.jpg">
+                    </li>
+                    <li class="elem-slider-img" data-target="#carouselExampleCaptions" data-slide-to="3" class="">
+                        <img class="d-block w-100" src="./images/thurmnail/tophit.jpg">
+                    </li>
+                    <li class="elem-slider-img" data-target="#carouselExampleCaptions" data-slide-to="4" class="">
+                        <img class="d-block w-100" src="./images/thurmnail/ttvt.jpg">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/mllcn.jpg" data-holder-rendered="true">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="./images/tcnyt.jpg" data-holder-rendered="true">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="./images/thanhxuan.jpg" data-holder-rendered="true">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="./images/tophit.jpg" data-holder-rendered="true">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="./images/ttvt.jpg" data-holder-rendered="true">
+                    </div>
+                </div>
+                <a class="carousel-control-prev carousel-styles-prev" href="#carouselExampleCaptions" role="button"
+                    data-slide="prev">
+                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next carousel-styles-next" href="#carouselExampleCaptions" role="button"
+                    data-slide="next">
+                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!-- End Slier -->
+            <section class="elem-row-bolero pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 px-5">
+                        <h2 class="h4 title-section pt-4 mb-3">Tình Khúc Bolero</h2>
+                        <div class="filtering slider-4-product">
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/1.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Nhạc hoa buồn da diết</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/2.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Bolero miệt vườn vol2</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/3.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Nhóm ca và bạn trẻ</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/4.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Ca sĩ hát nhạc phim hàn quốc hay nhất</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/5.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Tháng mấy rồi?</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box-product">
+                                <a href="#" class="d-inline-block">
+                                    <div class="w-100 box-img-product">
+                                        <img src="./images/bolero/6.jpg">
+                                        <div class="box-black-play">
+                                            <div class="btn-play">
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 title-product">
+                                        <h3 class="h6">Nhạc hòa tấu V-POP nhẹ nhàng</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- End Slier 4 Product -->
+            <div class="elements-section" style="background-image: linear-gradient(to bottom,#f1f3f5 0,#fcfcfc 100%);">
+                <section class="px-5 py-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-9 box-chart p-0">
+                            <div class="w-100 p-3 box-time-chart">
+                                <div class="time-chart">
+                                    <button>#zingchart</button>
+                                    <p class="time-now">
+                                        <span>20/20/2020</span>
+                                        <span>20:20</span>
+                                    </p>
+                                </div>
+                                <button class="play-all-music">
+                                    <i class="fa fa-play"></i>
+                                    <span>Nghe tất cả</span>
+                                </button>
+                            </div>
+                            <canvas id="myChart" class="myChart"></canvas>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 box-bxh p-0">
+                            <ul class="realtime-list-song">
+                                <li>
+                                    <a href="">
+                                        <div class="chart-item first">
+                                            <div class="prefix">
+                                                <p>01</p>
+                                            </div>
+                                            <div class="thumb-40">
+                                                <img src="./images/thum40realtime/1.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Ai là người thương em</p>
+                                                <p class="artist">Quân A.P</p>
+                                            </div>
+                                            <div class="prefix-percent">
+                                                <p>43%</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="chart-item second">
+                                            <div class="prefix">
+                                                <p>02</p>
+                                            </div>
+                                            <div class="thumb-40">
+                                                <img src="./images/thum40realtime/2.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Đau để trưởng thành</p>
+                                                <p class="artist">OnlyC</p>
+                                            </div>
+                                            <div class="prefix-percent">
+                                                <p>31%</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="chart-item third">
+                                            <div class="prefix">
+                                                <p>03</p>
+                                            </div>
+                                            <div class="thumb-40">
+                                                <img src="./images/thum40realtime/3.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Độ ta không độ nàng</p>
+                                                <p class="artist">Thái Quỳnh</p>
+                                            </div>
+                                            <div class="prefix-percent">
+                                                <p>26%</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="chart-item">
+                                            <div class="prefix">
+                                                <p>04</p>
+                                            </div>
+                                            <div class="thumb-40">
+                                                <img src="./images/thum40realtime/4.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Đừng yêu em nữa, em mệt rồi</p>
+                                                <p class="artist">Min</p>
+                                            </div>
+                                            <div class="prefix-percent"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="chart-item">
+                                            <div class="prefix">
+                                                <p>05</p>
+                                            </div>
+                                            <div class="thumb-40">
+                                                <img src="./images/thum40realtime/5.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Sao em vô tình</p>
+                                                <p class="artist">Jack, Liam</p>
+                                            </div>
+                                            <div class="prefix-percent"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="btn-text-viewall">
+                                <a href="#">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- End Chart -->
+                <section class="chart-week">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 px-5 pb-3">
+                            <h2 class="h6 pt-1 pb-2">
+                                <a href="#" class="hover-link">#ZINGCHART Tuần <i class="fa fa-chevron-right"></i></a>
+                            </h2>
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-3 kind-chartweek">
+                                    <a href="#">
+                                        <img src="./images/chartweek/song-vn.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-3 kind-chartweek">
+                                    <a href="#">
+                                        <img src="./images/chartweek/mv-vn.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-3 kind-chartweek">
+                                    <a href="#">
+                                        <img src="./images/chartweek/song-usuk.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-3 kind-chartweek">
+                                    <a href="#">
+                                        <img src="./images/chartweek/song-kpop.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </section> <!-- End Chart Week -->
+                <section class="top100">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 px-5">
+                            <h2 class="h6 pt-1 pb-3">
+                                <a href="#" class="hover-link">Top 100 <i class="fa fa-chevron-right"></i></a>
+                            </h2>
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/1.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Âu Mỹ hay nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/2.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Audiophile Âu Mỹ Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/3.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Hàn Quốc Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/4.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Electronic Dance Âu Mỹ Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/5.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Trữ Tình Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/6.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Dance Việt Nam Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/7.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Rap Việt Nam Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="box-product">
+                                        <a href="#" class="d-inline-block">
+                                            <div class="w-100 box-img-product">
+                                                <img src="./images/top100/8.jpg">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-2 title-product">
+                                                <h3 class="h6">Top 100 Nhạc Thiếu Nhi Hay Nhất</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </section> <!-- End Top 100 -->
+                <section class="new-song">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 px-5 box-title-newsong">
+                            <h2 class="h3 py-2" style="text-transform: capitalize;">
+                                Bài hát mới
+                            </h2>
+                            <button class="play-all-music">
+                                <i class="fa fa-play"></i>
+                                <span>Nghe tất cả</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 px-5 pb-3">
+                            <ul class="row list-new-song">
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/1.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Mang Tên Người Thứ Ba</p>
+                                                <p class="artist">Hoàng Lan</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/2.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Chỉ Là Tình Cờ</p>
+                                                <p class="artist">Hòa Minzy</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/3.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Đừng Lo Anh Ổn Mà</p>
+                                                <p class="artist">Tường Quân</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/4.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Đường Tình Vô Tận</p>
+                                                <p class="artist">Hồ Gia Hùng</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/5.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Ai’m Loving You</p>
+                                                <p class="artist">Niji Universe Inc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/6.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Viết Về Yêu Xa</p>
+                                                <p class="artist">Dịp, Đăng Răng To</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/7.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Hẹn Yêu (Remix)</p>
+                                                <p class="artist">Duy Zuno, Juliem</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/8.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">DIVA (I AM DIVA)</p>
+                                                <p class="artist">Thu Minh</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/9.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Nếu Sinh Ra Ở Một Nơi Khác</p>
+                                                <p class="artist">Dế Choắt</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-12 col-sm-6 col-md-6">
+                                    <a href="#">
+                                        <div class="card-new-song">
+                                            <div class="thumb-40">
+                                                <img src="./images/newsong/9.jpg" alt="">
+                                                <div class="box-black-play">
+                                                    <div class="btn-play">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-info">
+                                                <p class="title">Mắt Không Thấy Tim Không Đau</p>
+                                                <p class="artist">Thiên Dũng, Trịnh Thiên Ân</p>
+                                            </div>
+                                        </div>
+                                        <div class="icon-new-song">
+                                            <button><i class="fa fa-info-circle"></i></button>
+                                            <button><i class="fa fa-ellipsis-h"></i></button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section> <!-- End New Song -->
+                <section class="theme-kind">
+                    <div class="row px-4">
+                        <div class="w-100 box-theme-kind">
+                            <div class="col-12 col-sm-12 col-md-12 px-4 pt-3 title-sec-theme">
+                                <h2 class="h5 py-2 mb-0" style="text-transform: capitalize;">
+                                    <a href="#" class="hover-link">Chủ đề & Thể loại <i
+                                            class="fa fa-chevron-right"></i></a>
+                                </h2>
+                                <div class="nav-tabs">
+                                    <a class="tablinks active" onclick="openFilter(event, 'filter-tab')" id="defaultOpen">
+                                        Chọn Lọc
+                                    </a>
+                                    <a class="tablinks" onclick="openFilter(event, 'theme-tab')">
+                                        Chủ Đề
+                                    </a>
+                                    <a class="tablinks" onclick="openFilter(event, 'kind-tab')">
+                                        Thể Loại
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 tabs-content">
+                                <div id="filter-tab" class="tabcontent row">
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/trending.jpg">
+                                            </div>
+                                            <span class="title-topic">Trending</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-viet.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Việt</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-aumy.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Âu Mỹ</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-han.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Hàn</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-hoa.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Hoa</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/trutinh-bolero.jpg">
+                                            </div>
+                                            <span class="title-topic">Trữ Tình & Bolero</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/edm.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc EDM</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/tinhyeu.jpg">
+                                            </div>
+                                            <span class="title-topic">Tình Yêu</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="theme-tab" class="tabcontent row">
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/trending.jpg">
+                                            </div>
+                                            <span class="title-topic">Trending</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-viet.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Việt</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-aumy.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Âu Mỹ</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-han.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Hàn</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-hoa.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Hoa</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/trutinh-bolero.jpg">
+                                            </div>
+                                            <span class="title-topic">Trữ Tình & Bolero</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/edm.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc EDM</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/tinhyeu.jpg">
+                                            </div>
+                                            <span class="title-topic">Tình Yêu</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="kind-tab" class="tabcontent row">
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-tre.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Trẻ</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/edm2.jpg">
+                                            </div>
+                                            <span class="title-topic">EDM</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/hiphop.jpg">
+                                            </div>
+                                            <span class="title-topic">Hip Hop</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-khongloi.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Không Lời</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/latin.jpg">
+                                            </div>
+                                            <span class="title-topic">Latin</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/rb.jpg">
+                                            </div>
+                                            <span class="title-topic">R&B</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/dance.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Dance</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-3 item-kind">
+                                        <a href="#">
+                                            <div class="img-item-kind">
+                                                <img src="./images/kind-song/nhac-hoa2.jpg">
+                                            </div>
+                                            <span class="title-topic">Nhạc Hoa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End theme & kind -->
+
+                <section class="py-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 box-banner-zing">
+                            <div class="banner-zing">
+                                <img src="./images/logo.png" width="40px" height="40px">
+                                <span class="banner-content">Hãy đăng nhập để khám phá thêm nhiều bài hát dành riêng cho
+                                    bạn</span>
+                                <a class="btn-login-bottom">ĐĂNG NHẬP</a>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- End Banner -->
+            </div>
+        </div>
+    </main>
+    <footer class="">
+        <div class="container">
+            <div class="py-4">
+                <div class="col-12 col-sm-12 col-md-12 info-company">
+                    <img src="./images/logo.png" width="40px" height="40px">
+                    <span>Một sản phẩm của Zalo</span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 nav-bottom">
+                    <ul class="">
+                        <li>
+                            <a class="z-link" title="Giới thiệu">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <div class="z-link z-link-special">•</div>
+                        </li>
+                        <li>
+                            <a href="#" class="z-link" title="Liên hệ" target="_blank">Liên hệ</a>
+                        </li>
+                        <li>
+                            <div class="z-link z-link-special">•</div>
+                        </li>
+                        <li>
+                            <a href="#" class="z-link" title="Quảng cáo" target="_blank">Quảng cáo</a>
+                        </li>
+                        <li>
+                            <div class="z-link z-link-special">•</div>
+                        </li>
+                        <li>
+                            <a href="#" class="z-link" title="Góp ý" target="_blank">Góp ý</a>
+                        </li>
+                        <li>
+                            <div class="z-link z-link-special">•</div>
+                        </li>
+                        <li>
+                            <a href="#" class="z-link" title="Thỏa thuận sử dụng" target="_blank">Thỏa thuận sử dụng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+    <!-- Slider 4 product -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.filtering').slick({
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                // reponsive
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            infinite: false,
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            infinite: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            var filtered = false;
+        });
+    </script>
+    <!-- Chart -->
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [00, 02, 04, 06, 08, 10, 12],
+                datasets: [{
+                    label: '#TOP 1',
+                    data: [1300, 2000, 3000, 2225, 1050, 1987, 2889],
+                    borderColor: [
+                        'rgba(7, 50, 244, 1)',
+                        'rgba(7, 50, 244, 1))',
+                        'rgba(7, 50, 244, 1)',
+                        'rgba(7, 50, 244, 1)',
+                        'rgba(7, 50, 244, 1)',
+                        'rgba(7, 50, 244, 1)'
+                    ],
+                    borderWidth: 3,
+                },
+                {
+                    label: '#TOP 2',
+                    data: [2000, 1230, 2700, 2125, 550, 2387, 1889],
+                    borderColor: [
+                        'rgba(2, 216, 37, 1)',
+                        'rgba(2, 216, 37, 1))',
+                        'rgba(2, 216, 37, 1)',
+                        'rgba(2, 216, 37, 1)',
+                        'rgba(2, 216, 37, 1)',
+                        'rgba(2, 216, 37, 1)'
+                    ],
+                    borderWidth: 3
+                },
+                {
+                    label: '#TOP 3',
+                    data: [500, 900, 1700, 1125, 650, 1387, 789],
+                    borderColor: [
+                        'rgba(239, 0, 0, 1)',
+                        'rgba(239, 0, 0, 1)',
+                        'rgba(239, 0, 0, 1)',
+                        'rgba(239, 0, 0, 1)',
+                        'rgba(239, 0, 0, 1)',
+                        'rgba(239, 0, 0, 1)'
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });    
+    </script>
+    <!-- Tabs -->
+    <script>
+        function openFilter(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "flex";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
